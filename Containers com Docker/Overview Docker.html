@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head></head>
+<body>
+
+    <h1>Overview Docker</h1>
+
+    <p>Qual o problema que o Docker vem para resolver?
+        What problem is Docker up to solve?
+        Aplicação desenvolvida simultaneamente em diferentes sistemas operacionais
+        Quando se tem aplicações rodando em diferentes sistemas operacionais, estas aplicações apresentam desafios especificos devido a especificidade de cada sistema, tornado multiplas e distintas as especificidades aplicadas a aplicação por estar lidando com diferentes SO (ambientes)
+
+        durante o desenvolviment, haverá um comportamento, mas no deploy pode não ter -nuvem, pois a aplicação ficou dependente do ambientes
+
+        antigamente utilizava-se uma virtual machine.
+        qual o problema da virtual machine? custo maior de máquina
+        perda de performance
+        seria necessário haver mais uma camada 
+        
+        *amostragem de ambiente de dependência -> docker 
+        *simulação de ambiente 
+        - não compensa desenvolver a aplicação em so diferentes pois isto representa mudança de ambiente brusca e prejudica a aplicação
+        - virtual machine não é viável pois, por mais que viabilize a aplicação, a virtual machine apresenta-se como um peso demasiado
+        - docker é ambiente portátil - container - em que ao se obter uma imagem naquele container limitrofe, ele simula a imagem do sistema/ambiente em seus aspectos necessários para que o programa rode, traz somente o que a aplicação precisa
+
+        docker é mais performático que uma máquina virtual e traz autonomia à aplicação, não está dependente totalmente do S o
+        você pode dinamizar ao duplicar seu container para descongestionar o acesso à aplicação, por exemplo, assim tendo várias instâncias de sua aplicação, escalonando-o. seu sistema fica portátil cnsegue levar para qualquer sistema de núvem, etc. 
+
+        Os contâiners podem dialogar entre si
+    </p>
+
+    <h1> O que é o modelo cliente-servidor</h1>
+    <p>o modelo cliente servidor é uma estrutura de aplicação que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, designados como servidores; e os requerentes dos serviços, designados como clientes
+        ex celular - cliente - intertnet - servidor
+         celular -> app banco -> frontend -> requisição http -> servidor -> backend -> envia serviço
+            -> solicita saldo                          - envia saldo 
+        hardware começou a apresentar muitas desvantagens enquanto segurança, incluso custo (custos tbm de manutenção e ambiente)
+        solução : cloud
+
+        <h2>cloud</h2> 
+         cloud computing é o acesso sob demada, via internet de recursos de computação - aplicativos, servidores (físicos e virtuais), armazenamento de dados, ferramentas de desenvolvimento, recursos de rede e muito mais - hospeddos em um data center remoto gerenciado por um provedor de serviços em cloud - cloud solution provider. O CSP disponibiliza esses recursos por uma assinatura mensal ou por um valor cobrado conforme o uso.
+
+         <h2>Virtualização</h2>
+        a virtualização utiliza software para criar uma camada de abstração sobre o hardware do computador, permitindo que os recursos de hardware de um único computador (processadores, memórias, armazenamentos etc) sejam divididos em vários computadores virtuais.
+        
+        
+        </p>
+</body>
+</html>
